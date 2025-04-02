@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.sprite.SpriteTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-02T02:35:15" hostname="DESKTOP-VC70SKT" time="0.107">
+  <properties/>
+  <testcase name="splitOutOfBounds()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.02"/>
+  <testcase name="spriteHeight()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.011"/>
+  <testcase name="animationWidth()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.012"/>
+  <testcase name="splitWidth()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.008"/>
+  <testcase name="spriteWidth()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.022"/>
+  <testcase name="splitHeight()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.009"/>
+  <testcase name="resourceMissing()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.01"/>
+  <testcase name="animationHeight()" classname="nl.tudelft.jpacman.sprite.SpriteTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
