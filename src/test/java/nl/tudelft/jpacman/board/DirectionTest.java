@@ -1,43 +1,49 @@
 package nl.tudelft.jpacman.board;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.*;
-import java.util.stream.Stream;
+import org.junit.jupiter.params.provider.EnumSource;
 
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * A very simple (and not particularly useful)
- * test class to have a starting point where to put tests.
- *
- * @author Arie van Deursen
- */
 public class DirectionTest {
-    /**
-     * Do we get the correct delta when moving north?
-     */
+
     @Test
-    void testNorth() {
-        Direction north = Direction.valueOf("NORTH");
-        assertThat(north.getDeltaY()).isEqualTo(-1);
+    void testNorthDelta() {
+        Direction north = Direction.NORTH;
+        assertEquals(0, north.getDeltaX(), "NORTH should have deltaX of 0");
+        assertEquals(-1, north.getDeltaY(), "NORTH should have deltaY of -1");
     }
 
+    @Test
+    void testSouthDelta() {
+        Direction south = Direction.SOUTH;
+        assertEquals(0, south.getDeltaX(), "SOUTH should have deltaX of 0");
+        assertEquals(1, south.getDeltaY(), "SOUTH should have deltaY of 1");
+    }
+
+    @Test
+    void testEastDelta() {
+        Direction east = Direction.EAST;
+        assertEquals(1, east.getDeltaX(), "EAST should have deltaX of 1");
+        assertEquals(0, east.getDeltaY(), "EAST should have deltaY of 0");
+    }
+
+    @Test
+    void testWestDelta() {
+        Direction west = Direction.WEST;
+        assertEquals(-1, west.getDeltaX(), "WEST should have deltaX of -1");
+        assertEquals(0, west.getDeltaY(), "WEST should have deltaY of 0");
+    }
 
     @ParameterizedTest
-    @ValueSource(strings = {"Hello", "world", ""})
-    void howMany(String input) {
-        assertTrue(input.endsWith("d"));
-        int x = 10, y= 4;
-        if (x >= y) {}
+    @EnumSource(Direction.class)
+    void testDeltaRange(Direction direction) {
+        int dx = direction.getDeltaX();
+        int dy = direction.getDeltaY();
+
+        assertTrue(dx >= -1 && dx <= 1, "Delta X must be between -1 and 1");
+        assertTrue(dy >= -1 && dy <= 1, "Delta Y must be between -1 and 1");
+        assertNotEquals(0, dx + dy, "Direction must move in at least one axis");
     }
-
-
-    @Test
-    void why() {
-        //assertTrue(false == true);
-    }
-
 }
