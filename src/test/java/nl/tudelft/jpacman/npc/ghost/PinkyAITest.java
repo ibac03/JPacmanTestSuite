@@ -109,9 +109,9 @@ public class PinkyAITest {
     void testPinkyNextAiMoveSouth() {
         GhostMapParser parser = createGhostMapParser();
         List<String> map = Arrays.asList(
-                " ",
-                "S",
                 "P",
+                "S",
+                " ",
                 " ",
                 " ",
                 " ",
@@ -134,7 +134,7 @@ public class PinkyAITest {
 
     /**
      * Test: No player present.
-     * Map: "C  " (only Pinky) in one row.
+     * Map: "S  " (only Pinky) in one row.
      * Expected: No player, should not have a move.
      */
     @Test
@@ -154,7 +154,7 @@ public class PinkyAITest {
 
     /**
      * Test: Pinky and Player in the same square.
-     * Map: "C  " (Pinky and Player together) in one row.
+     * Map: "S  " (Pinky and Player together) in one row.
      * Expected: Shortest path is zero, so no move.
      */
     @Test
