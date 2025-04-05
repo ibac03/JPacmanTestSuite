@@ -30,6 +30,7 @@ class JPacmanSpecificationTest {
         level = game.getLevel();
     }
 
+    //
 
     @Test
     void launcherCreatesNonNullGame() {
