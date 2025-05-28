@@ -18,5 +18,5 @@ A comprehensive test suite for the JPacman game implementation in Java, original
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<your-username>/JPacmanTestSuite.git
+   git clone https://github.com/ibac03/JPacmanTestSuite.git
    cd JPacmanTestSuite
