@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9be260d3-186d-46bd-ab18-48f7000da092" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nl/tudelft/jpacman/level/MapParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/DirectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/DirectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/OccupantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/board/OccupantTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/level/PlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/npc/ghost/GhostMapParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/nl/tudelft/jpacman/npc/ghost/GhostMapParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.LauncherSmokeTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.LauncherSmokeTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.board.BoardFactoryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.board.BoardFactoryTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.board.BoardTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/classes/nl.tudelft.jpacman.board.BoardTest.html" afterDir="false" />
@@ -34,6 +26,9 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.level.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.level.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.npc.ghost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.npc.ghost.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.sprite.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/defaultTest/packages/nl.tudelft.jpacman.sprite.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/nl.tudelft.jpacman.level.MapParserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/nl.tudelft.jpacman.level.MapParserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/nl.tudelft.jpacman.level.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/nl.tudelft.jpacman.level.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.LauncherSmokeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.LauncherSmokeTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.board.BoardFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.board.BoardFactoryTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.board.BoardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.board.BoardTest.xml" afterDir="false" />
@@ -43,7 +38,8 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.npc.ghost.NavigationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.npc.ghost.NavigationTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.sprite.SpriteTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/TEST-nl.tudelft.jpacman.sprite.SpriteTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/defaultTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/defaultTest/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-nl.tudelft.jpacman.level.MapParserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-nl.tudelft.jpacman.level.MapParserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +70,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.MapParserTest.executor": "Run",
-    "Gradle.Tests in 'jpacman.defaultTest'.executor": "Run",
-    "Gradle.jpacman_b052 [:nl.tudelft.jpacman.Launcher.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ibac2/IdeaProjects/jpacman-test-suite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.MapParserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'jpacman.defaultTest'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jpacman_b052 [:nl.tudelft.jpacman.Launcher.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ibac2/IdeaProjects/jpacman-test-suite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -162,6 +158,8 @@
       <workItem from="1743578915130" duration="3167000" />
       <workItem from="1743617062184" duration="2137000" />
       <workItem from="1743731405074" duration="1170000" />
+      <workItem from="1743818120009" duration="1113000" />
+      <workItem from="1748460721619" duration="51000" />
     </task>
     <servers />
   </component>
